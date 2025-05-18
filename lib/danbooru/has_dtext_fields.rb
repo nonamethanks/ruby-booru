@@ -4,7 +4,7 @@ require "nokogiri"
 class Danbooru
   module HasDTextFields
     def html_body
-      DTextRagel.parse(body)
+      DText.parse(body)
     end
 
     def pretty_body
