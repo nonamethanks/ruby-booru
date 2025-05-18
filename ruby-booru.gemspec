@@ -32,6 +32,9 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "nokogiri", "~> 1.18"
   spec.add_runtime_dependency "retriable", "~> 3"
   spec.add_runtime_dependency "rest-client", "~> 2.1"
+  spec.add_runtime_dependency "rdoc", "~> 6.13"
+
+
 
   spec.add_development_dependency "bundler", "~> 2"
   spec.add_development_dependency "rake", "~> 13.0"
