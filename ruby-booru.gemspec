@@ -20,15 +20,18 @@ Gem::Specification.new do |spec|
   spec.executables   = %w[danbooru]
   spec.require_paths = ["lib"]
 
-  spec.required_ruby_version = '~> 2.4'
+  spec.required_ruby_version = '~> 3.4'
 
-  spec.add_runtime_dependency "activesupport", "~> 6"
+  spec.add_runtime_dependency "activesupport", "~> 8"
   spec.add_runtime_dependency "addressable", "~> 2"
   spec.add_runtime_dependency "connection_pool", "~> 2"
   spec.add_runtime_dependency "dotenv", "~> 2"
   spec.add_runtime_dependency "dtext_rb", "~> 1"
+  spec.add_runtime_dependency "gli", "~> 2.22"
   spec.add_runtime_dependency "http", "~> 4"
+  spec.add_runtime_dependency "nokogiri", "~> 1.18"
   spec.add_runtime_dependency "retriable", "~> 3"
+  spec.add_runtime_dependency "rest-client", "~> 2.1"
 
   spec.add_development_dependency "bundler", "~> 2"
   spec.add_development_dependency "rake", "~> 13.0"

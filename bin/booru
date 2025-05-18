@@ -9,6 +9,8 @@ require "gli"
 include GLI::App
 
 $booru = Danbooru.new
+
+require "rest-client"
 RestClient.log = Logger.new(STDERR)
 
 program_desc "booru API client"
